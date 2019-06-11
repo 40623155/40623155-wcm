@@ -1,18 +1,20 @@
 <h1>簡介</h1>
 <p>虎尾科技大學 - 網際內容管理 - 40623155</p>
 <p><span>主題連結</span></p>
-<p>網路連線設定</p>
-<p>配置可攜程式環境</p>
-<p>倉儲改版</p>
-<p>靜態 CMSimfly</p>
-<p>Mobile 網站內容</p>
-<p>Virtual Host</p>
-<h1>網路連線設定</h1>
+<p><a href="https://40623155.github.io/40623155-wcm/content/%E7%B6%B2%E8%B7%AF%E9%80%A3%E7%B7%9A%E8%A8%AD%E5%AE%9A.html">網路連線設定</a></p>
+<p><a href="https://40623155.github.io/40623155-wcm/content/%E9%85%8D%E7%BD%AE%E5%8F%AF%E6%94%9C%E7%A8%8B%E5%BC%8F%E7%92%B0%E5%A2%83.html">配置可攜程式環境</a></p>
+<p><a href="https://40623155.github.io/40623155-wcm/content/%E5%80%89%E5%84%B2%E6%94%B9%E7%89%88.html">倉儲改版</a></p>
+<p><a href="https://40623155.github.io/40623155-wcm/content/%E9%9D%9C%E6%85%8B%20CMSimfly.html">靜態 CMSimfly</a></p>
+<p><a href="https://40623155.github.io/40623155-wcm/content/Mobile%20%E7%B6%B2%E7%AB%99%E5%85%A7%E5%AE%B9.html">Mobile 網站內容</a></p>
+<p><a href="https://40623155.github.io/40623155-wcm/content/Virtual%20Host.html">Virtual Host</a></p><h1>網路連線設定</h1>
 <h2>Proxy設置</h2>
 <p><span>1.打開chrome後點擊右上角"<strong>：</strong>"裡的<strong>設定</strong></span><br/><span><br/></span><span></span><span>2.移動到最下方&gt;進階&gt;開啟proxy設定</span><br/><span><br/></span><span></span><span>3.點選LAN設定&gt;打開proxy&gt;輸入140.130.17.32&gt;3128即可</span></p>
 <p><span>操作影片</span></p>
-<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/-TByRtE2MUE" width="560"></iframe></span></p>
-<h2>網路故障</h2>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/CLfc82cOT3s" width="560"></iframe></span></p>
+<p></p>
+<p></p>
+<h2>網路故障(IPV6設置)</h2>
+<p></p>
 <p><span>遇到學校伺服器IP掛掉問題</span><br/><span>Step1.關閉網路第四版協定</span></p>
 <p><span><img alt="" height="533" src="https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g6/images/SfF6oN78hU.png" width="937"/></span></p>
 <p><span><img alt="" height="497" src="https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g6/images/SfF6oN78hU.png" width="873"/></span></p>
@@ -34,10 +36,11 @@
 <p>課程網站連結：<a href="https://2019wcm.blogspot.com/">https://2019wcm.blogspot.com/</a></p>
 <p>懶人包版可攜系統：<a href="https://drive.google.com/file/d/1_TQBw1PM7jxrmtsBjvLKbjJWfGs8Ug79/view">請點此</a></p>
 <p></p>
-<h2>完整操作影片</h2>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/NI12Vtl_fw4" width="560"></iframe></p>
-<h1>倉儲改版</h1><h2>GIT指令</h2>
-<p><span>建立 Git 倉儲, 並 clone 倉儲至近端工作後, 對遠端倉儲改版</span><br/><br/><span>可攜程式系統中已經內建 git, 可以在啟動 start.bat 後, 透過 path 的設定, 直接執行 git 指令.</span><br/><br/><span>建立 Git 倉儲, 共分為兩類, 一類是直接在 Github 網際介面下建立倉儲時, 要求建立 README.md 檔案, 之後可以直接在近端, 以 git clone 加上倉儲連線 URL, 將倉儲克隆一份到近端, 並以最新版本作為工作目錄, 使用者改版後, 可以直接透過 git add, commit 與 push 對遠端倉儲改版.</span><br/><br/><span>另一類則是故意在 Github 網際介面下建立倉儲時, 不要建立任何檔案, 而是在近端自行利用 git 指令建立倉儲架構, 新增內容後, 以 git remote add 設法在近端倉儲中納入 origin URL 後, 將近端倉儲版本新增提交推送到遠端.</span><br/><br/><span>git add</span><br/><br/><span>git add 可以用來新增一個檔案, 數個檔案, 或在之前提交後所新增的所有內容.</span><br/><br/><span>git add 在 GIT 架構下, 是對所新增或修改的內容拍快照:</span><br/><br/><span>git add . adds all modified and new (untracked) files in the current directory and all subdirectories to the staging area (a.k.a. the index), thus preparing them to be included in the next git commit . Any files matching the patterns in the .gitignore file will be ignored by git add</span><br/><br/><span>git commit<span> </span></span><br/><br/><span>git commit 執行之前, 必須使用 git config 建立臨時或永久的身分註記, 因為 GIT 在展開所有改版內容時, 必須明確登錄這些變更的作者與時間.</span><br/><br/><span>當使用者採用 git commit -m "改版說明訊息", 此次提交到 .git 目錄下的更動內容, 均會綁定使用者身分與改版所輸入的說明訊息.</span><br/><br/><span>git push</span><br/><br/><span>git push 在隨後沒有輸入遠端 URL 代號時, 表示要推送到 origin, 若透過 git remote add 設定其他代號與 URL 對應時, git push 加上代號, 就可以將此次的提交內容, 推送到指定的 URL 所在遠端倉儲.</span></p><h2>.ssh(Portable Python)</h2>
+<h2>建立可攜系統影片</h2>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/NI12Vtl_fw4" width="560"></iframe></p><h1>倉儲改版</h1>
+<h2>GIT指令</h2>
+<p><span>建立 Git 倉儲, 並 clone 倉儲至近端工作後, 對遠端倉儲改版</span><br/><br/><span>可攜程式系統中已經內建 git, 可以在啟動 start.bat 後, 透過 path 的設定, 直接執行 git 指令.</span><br/><br/><span>建立 Git 倉儲, 共分為兩類, 一類是直接在 Github 網際介面下建立倉儲時, 要求建立 README.md 檔案, 之後可以直接在近端, 以 git clone 加上倉儲連線 URL, 將倉儲克隆一份到近端, 並以最新版本作為工作目錄, 使用者改版後, 可以直接透過 git add, commit 與 push 對遠端倉儲改版.</span><br/><br/><span>另一類則是故意在 Github 網際介面下建立倉儲時, 不要建立任何檔案, 而是在近端自行利用 git 指令建立倉儲架構, 新增內容後, 以 git remote add 設法在近端倉儲中納入 origin URL 後, 將近端倉儲版本新增提交推送到遠端.</span><br/><br/><span>git add</span><br/><br/><span>git add 可以用來新增一個檔案, 數個檔案, 或在之前提交後所新增的所有內容.</span><br/><br/><span>git add 在 GIT 架構下, 是對所新增或修改的內容拍快照:</span><br/><br/><span>git add . adds all modified and new (untracked) files in the current directory and all subdirectories to the staging area (a.k.a. the index), thus preparing them to be included in the next git commit . Any files matching the patterns in the .gitignore file will be ignored by git add</span><br/><br/><span>git commit<span> </span></span><br/><br/><span>git commit 執行之前, 必須使用 git config 建立臨時或永久的身分註記, 因為 GIT 在展開所有改版內容時, 必須明確登錄這些變更的作者與時間.</span><br/><br/><span>當使用者採用 git commit -m "改版說明訊息", 此次提交到 .git 目錄下的更動內容, 均會綁定使用者身分與改版所輸入的說明訊息.</span><br/><br/><span>git push</span><br/><br/><span>git push 在隨後沒有輸入遠端 URL 代號時, 表示要推送到 origin, 若透過 git remote add 設定其他代號與 URL 對應時, git push 加上代號, 就可以將此次的提交內容, 推送到指定的 URL 所在遠端倉儲.</span></p>
+<h2>.ssh(Portable Python)</h2>
 <p><span dir="ltr">進入<a href="http://mde.tw/#/">mde.tw</a>，進入<a href="https://2019wcm.blogspot.com/">2019 網際內容管理課程示範網</a></span><a href="https://2019wcm.blogspot.com/">誌</a>，點入<a href="https://2019wcm.blogspot.com/search/label/portable%20python">portable python</a></p>
 <p>開始進入本次的編輯教學網頁：</p>
 <p><img alt="" height="769" src="https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g6/images/chrome_5Lj2vWEcw8.png" width="514"/></p>
@@ -76,16 +79,31 @@
 <p><img alt="" height="655" src="https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g6/images/chrome_Wpib05uwrg.png" width="1358"/></p>
 <p>完成後會出現</p>
 <p><img alt="" height="296" src="https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g6/images/chrome_4iRdh69e3S.png" width="770"/></p>
-<p>個人操作影片</p>
+<p><strong>個人操作影片</strong></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/rW7FbyUEmH4" width="560"></iframe></p>
-<p>教師示範影片</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/t4PslV5Abjs" width="560"></iframe></p>
-<h1>靜態 CMSimfly</h1>
+<p><strong>教師示範影片</strong></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/t4PslV5Abjs" width="560"></iframe></p><h1>靜態 CMSimfly</h1>
 <p><span>1.進入自己的倉儲資料夾</span><br/><span><br/></span><span></span><span>2.輸入python wsgi.py來開啟動態</span><br/><span><br/></span><span></span><span>3.進行改版或更新save</span><br/><span><br/></span><span></span><span>4.完成後按generate_pages來儲存</span><br/><span><br/></span><span></span><span>5.輸入git status &gt; git add . &gt; git commit -m "標題" &gt; git push</span></p>
 <p>操作影片：</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ptwMvs0qPCc" width="560"></iframe></p><h1>Mobile 網站內容</h1>
-<h1>Virtual Host</h1>
-<h1>網站項目</h1>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ptwMvs0qPCc" width="560"></iframe></p>
+<h1>Mobile 網站內容</h1>
+<p>1.進入<a href="http://cpgx.kmol.info/wcm2019/content/index.html">http://cpgx.kmol.info/wcm2019/content/index.html</a></p>
+<p>2.系統開發&gt;Mobile 網站內容&gt;套用模板一</p>
+<p><a href="http://cpgx.kmol.info/wcm2019/content/%E5%A5%97%E7%94%A8%E6%A8%A1%E6%9D%BF%E4%B8%80.html">http://cpgx.kmol.info/wcm2019/content/%E5%A5%97%E7%94%A8%E6%A8%A1%E6%9D%BF%E4%B8%80.html</a></p>
+<p><img alt="" height="404" src="/images/chrome_a3MAI6xbT1.png" width="1010"/></p>
+<p>3.點用套用模板，進入網址</p>
+<p><a href="https://themewagon.com/themes/free-html5-bootstrap-4-business-website-template-chimper/">https://themewagon.com/themes/free-html5-bootstrap-4-business-website-template-chimper/</a></p>
+<p><img alt="" height="779" src="/images/chrome_8nXiXnMvVF.png" width="1586"/></p>
+<p>4.在所需填入空格輸入自己的電子郵件</p>
+<p><img alt="" height="240" src="/images/chrome_qLMdf8o77f.png" width="446"/></p>
+<p>5.下載後解壓</p>
+<p></p>
+<p>6.<span>開起一個老師的新模板倉儲 &gt; 以Raw打開cmsimfly.leo</span></p>
+<p><br/><span><br/></span><span>7.複製全部 &gt; 到自己的倉儲cmsimfly.leo &gt; 貼上並儲存</span></p>
+<p><br/><span><br/></span><span>8.以Raw打開老師的flaskapp.py &gt; 一樣步驟貼上並儲存</span></p>
+<p><br/><span><br/></span><span>9.進入動態更改 &gt; 直接按generate_pages儲存即可</span></p><h1>Virtual Host</h1>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/fjIMW4cLR4I" width="560"></iframe><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/5gKWro5luhQ" width="560"></iframe></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/0AyOzEneqII" width="560"></iframe></p><h1>網站項目</h1>
 <h2>目錄結構</h2>
 <p>CMSimfly 的動態系統採用 Python3 + Flask 建構, 並且利用 Beatifulsoup 解讀位於 contig 目錄中的 content.htm 超文件檔案.</p>
 <p>content.htm 檔案可以透過動態系統中的 generate_pages 功能, 將超文件轉為位於 content 目錄中的個別頁面檔案.</p>
